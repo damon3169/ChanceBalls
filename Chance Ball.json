@@ -76,6 +76,217 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Sports pack (380 assets)/PNG/Equipment/4f3ce301e9442e62a408a4a60f9cb97f663cfca816745ac470c8c6c85eb5b330_soccer ball 2.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cannonball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cannonball.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/Projectile/Ball/2448ae5617eb465e2501958b08690aea92693aa262800175ce1c78938777d9a2_Cannonball.png",
+          "name": "Cannonball.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor purple.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Floor/a853de21c4bf3d6e36203ded45cfeb6c5f4f7538e0ff0a06e27902264377cded_floor purple.png",
+          "name": "floor purple.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor teal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor teal.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Floor/0f0c6a4f352c35e918181bf97f35ef2fe8ed02ebb3273b2dfb7794f6e690b7b5_floor teal.png",
+          "name": "floor teal.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor brown.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor brown.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Floor/c1f7c4554175724ed25c21af3e4e46edf97da56d0fce4533224c8a26d942853d_floor brown.png",
+          "name": "floor brown.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor checkered blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor checkered blue.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Floor/a88024627b15311ce3c92fe715878b74c191ae1a22d564a975f7113c97d290c6_floor checkered blue.png",
+          "name": "floor checkered blue.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor yellow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Floor/af06f43f522aa9402f6dfb2e0ac35ff71dc9f9995c139c5a107016a4e4b58ebf_floor yellow.png",
+          "name": "floor yellow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cannonball2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Cannonball",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/floor purple3.png\"}",
+        "name": "floor purple2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "floor purple2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor purple2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Flooring.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_tiled_Tiled Flooring.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_tiled_Tiled Flooring.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Clean.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_Floor_Clean.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_Floor_Clean.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Red Floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7bc6804613b68ad0e8247e78e27a8c99dfec7d0601b5e0d4045c80fc0b925221_tiled_Red Floor.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Tiles/7bc6804613b68ad0e8247e78e27a8c99dfec7d0601b5e0d4045c80fc0b925221_tiled_Red Floor.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Blue Floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3afccd7985243337bfd5ca8dd6f26f0279f566a111f4e71b8f71d42546daadaa_tiled_Blue Floor.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Tiles/3afccd7985243337bfd5ca8dd6f26f0279f566a111f4e71b8f71d42546daadaa_tiled_Blue Floor.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

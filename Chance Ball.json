@@ -79,6 +79,71 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Left Bumper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "30d1f572bcf302d84525fe9c0dce03a15b2565f2ebebff83bc1aac1424e0b233_Left Bumper.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Pixel Buttons Set/30d1f572bcf302d84525fe9c0dce03a15b2565f2ebebff83bc1aac1424e0b233_Left Bumper.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Email_Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2a855e77828927ead9ab633031fdc7adc23144e518838c5ba491bc5810c38ad3_Email_Red.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Simple Wares Buttons/2a855e77828927ead9ab633031fdc7adc23144e518838c5ba491bc5810c38ad3_Email_Red.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Magic Barrier_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3e5d0a468b87a8196e5879c141229396294fb61bff300ba91959bce1843ce825_Magic Barrier_22.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/3e5d0a468b87a8196e5879c141229396294fb61bff300ba91959bce1843ce825_Magic Barrier_22.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion 3_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Explosion 3_3.png\",\"extension\":\".png\"}",
+        "name": "068fa35edbbe501dc7ebacc963415cf0e97e36956ba8708370daef41421197bb_Explosion 3_3.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Effect/068fa35edbbe501dc7ebacc963415cf0e97e36956ba8708370daef41421197bb_Explosion 3_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cash Emote_Style 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dd17f961c422d8401fc04f8931ed548369b01915ac970ee24b2d863ae2d10356_Cash Emote_Style 2.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Emotes/Pixel art/dd17f961c422d8401fc04f8931ed548369b01915ac970ee24b2d863ae2d10356_Cash Emote_Style 2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/Cannonball.png",
         "kind": "image",
         "metadata": "",
@@ -293,7 +358,42 @@
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "BumperInSceneID",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "RandomBumperID",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "RandomBumperChoice",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "BumperList",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "BaseBumper2"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "BaseBumper3"
+        }
+      ]
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -309,7 +409,16 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectstack"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

@@ -693,6 +693,14 @@
     {
       "name": "ObjectStack",
       "type": "ObjectStack::ObjectStack"
+    },
+    {
+      "name": "Physics2",
+      "type": "Physics2::Physics2Behavior",
+      "gravityX": 0,
+      "gravityY": 9.8,
+      "scaleX": 100,
+      "scaleY": 100
     }
   ]
 }

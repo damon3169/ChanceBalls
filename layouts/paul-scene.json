@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22916801610748924,
+    "zoomFactor": 0.47711029201016264,
     "windowMask": false
   },
   "objectsGroups": [
@@ -26,15 +26,15 @@
       "name": "Floors",
       "objects": [
         {
-          "name": "BaseBumper"
+          "name": "SmallBump"
         },
         {
-          "name": "HighBumper"
+          "name": "RotatingBumper"
         }
       ]
     },
     {
-      "name": "Pannel",
+      "name": "Panel",
       "objects": [
         {
           "name": "Object1"
@@ -56,6 +56,26 @@
         },
         {
           "name": "BackGround"
+        },
+        {
+          "name": "Desc1"
+        },
+        {
+          "name": "Desc2"
+        },
+        {
+          "name": "Desc3"
+        }
+      ]
+    },
+    {
+      "name": "BallGroup",
+      "objects": [
+        {
+          "name": "BallScore"
+        },
+        {
+          "name": "Cannonball"
         }
       ]
     }
@@ -70,8 +90,8 @@
       "name": "Cannonball",
       "persistentUuid": "55cfd779-5a5a-4b3d-b884-2ebf14cac80b",
       "width": 0,
-      "x": 944,
-      "y": 22,
+      "x": 692,
+      "y": -406,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -85,9 +105,9 @@
       "layer": "",
       "name": "Floor",
       "persistentUuid": "37d63bf4-02d6-47ca-a507-988d4b89b641",
-      "width": 2519,
-      "x": -317,
-      "y": 1015,
+      "width": 3288,
+      "x": -701,
+      "y": 1124,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,8 +121,8 @@
       "name": "Line",
       "persistentUuid": "848c5329-3a42-4350-b45c-f3d8531c6fba",
       "width": 0,
-      "x": 332,
-      "y": 952,
+      "x": 492,
+      "y": 1028,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -116,8 +136,8 @@
       "name": "Line",
       "persistentUuid": "77a86693-93a0-481c-a19d-6d30a031e3c2",
       "width": 0,
-      "x": 675,
-      "y": 953,
+      "x": 302,
+      "y": 1029,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,8 +151,8 @@
       "name": "Line",
       "persistentUuid": "e6f8d1f7-941d-4dd0-be2d-15111fa1185f",
       "width": 0,
-      "x": 1244,
-      "y": 951,
+      "x": 795,
+      "y": 1029,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -146,8 +166,8 @@
       "name": "Line",
       "persistentUuid": "6b5eafa2-ca78-4ee0-887f-5f9ca26a2a28",
       "width": 0,
-      "x": 1564,
-      "y": 949,
+      "x": 609,
+      "y": 1027,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -158,11 +178,11 @@
       "customSize": false,
       "height": 92,
       "layer": "",
-      "name": "NewText",
+      "name": "TotalScore",
       "persistentUuid": "c7cd7417-5533-498b-b59b-35b45c7dcb88",
       "width": 137,
-      "x": 1741,
-      "y": 43,
+      "x": 1392,
+      "y": 8,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -177,8 +197,8 @@
       "name": "Wall",
       "persistentUuid": "0101385c-4ca3-4db4-bb16-3ce8e5f80b80",
       "width": 9239,
-      "x": -2679,
-      "y": -3623,
+      "x": -4626,
+      "y": -3445,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -192,9 +212,9 @@
       "layer": "",
       "name": "Wall",
       "persistentUuid": "fea0da1c-087d-4fca-bab1-39cf7f1b5c56",
-      "width": 9240,
-      "x": -4618,
-      "y": -3604,
+      "width": 9312,
+      "x": -3480,
+      "y": -3556,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -208,23 +228,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "4272839f-9e8c-4430-be21-9147d83a8743",
       "width": 0,
-      "x": 724,
-      "y": 206,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "EmptyBumper",
-      "persistentUuid": "2526a5cc-e766-4c8e-979e-b91957de9192",
-      "width": 0,
-      "x": 920,
-      "y": 205,
+      "x": 356,
+      "y": 333,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -238,8 +243,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "6b7a7e56-9643-4c5f-b365-7bfc1b16738d",
       "width": 0,
-      "x": 1098,
-      "y": 200,
+      "x": 730,
+      "y": 327,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -253,8 +258,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "6e7c508f-04ba-49aa-ad9a-f335f9390a4a",
       "width": 0,
-      "x": 1301,
-      "y": 206,
+      "x": 905,
+      "y": 318,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -268,23 +273,23 @@
       "name": "EmptyBumper",
       "persistentUuid": "cbb27b87-7fcb-4af6-8a23-63834e063f53",
       "width": 0,
-      "x": 509,
-      "y": 204,
+      "x": 161,
+      "y": 327,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 350,
+      "angle": 1,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "EmptyBumper",
       "persistentUuid": "59c5a64e-2d06-4eb6-a2b8-e6a9e8f2f6cc",
       "width": 0,
-      "x": 612,
-      "y": 352,
+      "x": 260,
+      "y": 484,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -298,8 +303,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "1240ef06-8903-4a5b-bbe6-8b78bfd8fde3",
       "width": 0,
-      "x": 820,
-      "y": 351,
+      "x": 439,
+      "y": 483,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -313,8 +318,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "31f7050c-3af9-40d1-994a-19dff1e5f085",
       "width": 0,
-      "x": 1003,
-      "y": 350,
+      "x": 647,
+      "y": 484,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -328,8 +333,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "e0353a08-9c06-4243-b6cc-0b69430817dc",
       "width": 0,
-      "x": 1203,
-      "y": 350,
+      "x": 815,
+      "y": 479,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -343,8 +348,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "0b3071c7-1cc8-4129-a91b-5fb4871d2a26",
       "width": 0,
-      "x": 727,
-      "y": 519,
+      "x": 348,
+      "y": 697,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -358,8 +363,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "7a757bc0-fe9d-4c8c-a66a-a726eb51abd8",
       "width": 0,
-      "x": 928,
-      "y": 529,
+      "x": 555,
+      "y": 653,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -373,8 +378,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "1972a855-363f-4739-aee0-3db132c69964",
       "width": 0,
-      "x": 1113,
-      "y": 519,
+      "x": 774,
+      "y": 684,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -384,13 +389,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 528,
+      "height": 897,
       "layer": "",
       "name": "BackGround",
       "persistentUuid": "5804627c-ac16-4348-8bae-bbabc36479b8",
-      "width": 932,
-      "x": 511,
-      "y": 187,
+      "width": 954,
+      "x": 1208,
+      "y": 151,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -404,8 +409,8 @@
       "name": "Object1",
       "persistentUuid": "d41ba9bb-688f-4b9c-a4e6-6bd56db1c606",
       "width": 0,
-      "x": 685,
-      "y": 351,
+      "x": 1264,
+      "y": 278,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -419,8 +424,8 @@
       "name": "Object2",
       "persistentUuid": "77040c06-e3d7-4efd-a5eb-dcc8bfd5fa37",
       "width": 0,
-      "x": 990,
-      "y": 345,
+      "x": 1267,
+      "y": 547,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -434,8 +439,8 @@
       "name": "Object3",
       "persistentUuid": "85e276d6-e433-4e38-92a6-2ff09fc453b9",
       "width": 0,
-      "x": 1288,
-      "y": 345,
+      "x": 1268,
+      "y": 849,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -450,8 +455,8 @@
       "name": "ButtonObject1",
       "persistentUuid": "92a18dba-292c-498f-a64f-62102203ee62",
       "width": 241,
-      "x": 577,
-      "y": 544,
+      "x": 1663,
+      "y": 323,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -466,8 +471,8 @@
       "name": "ButtonObject2",
       "persistentUuid": "3c8d0269-9404-4901-ae9c-2f988fff87ff",
       "width": 252,
-      "x": 888,
-      "y": 550,
+      "x": 1664,
+      "y": 549,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -482,8 +487,8 @@
       "name": "ButtonObject3",
       "persistentUuid": "5bfbe1c5-f2cc-4df3-ab64-b432d6fab3be",
       "width": 237,
-      "x": 1199,
-      "y": 547,
+      "x": 1669,
+      "y": 871,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -497,8 +502,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "3a6446a4-5bcc-479c-b6c5-9fd544770c1b",
       "width": 0,
-      "x": 534,
-      "y": 517,
+      "x": 166,
+      "y": 644,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -512,8 +517,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "6f606473-d97f-41d8-a3a5-056f497c4bf4",
       "width": 0,
-      "x": 1307,
-      "y": 521,
+      "x": 939,
+      "y": 648,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -527,8 +532,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "3f7b5112-9a4c-487a-be76-d9329a32b407",
       "width": 0,
-      "x": 426,
-      "y": 356,
+      "x": 97,
+      "y": 490,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -542,8 +547,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "738d2564-f198-48ec-ba2d-025c54b6e8f5",
       "width": 0,
-      "x": 1400,
-      "y": 356,
+      "x": 995,
+      "y": 479,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -557,8 +562,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "26948167-078d-43ad-bfff-3db50f8af71d",
       "width": 0,
-      "x": 638,
-      "y": 667,
+      "x": 440,
+      "y": 826,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -572,8 +577,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "5d1de896-61c7-490d-951e-bcd0a7cbd077",
       "width": 0,
-      "x": 1215,
-      "y": 667,
+      "x": 680,
+      "y": 827,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -587,38 +592,8 @@
       "name": "EmptyBumper",
       "persistentUuid": "4112f0b3-f84f-4f4b-8b66-c69058cb16e7",
       "width": 0,
-      "x": 921,
-      "y": 69,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "EmptyBumper",
-      "persistentUuid": "503cf099-43f0-4fa7-9ade-8a0c9761938a",
-      "width": 0,
-      "x": 173,
-      "y": 267,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "EmptyBumper",
-      "persistentUuid": "c1d3d872-5a73-4202-af9d-66537a228bc8",
-      "width": 0,
-      "x": 1667,
-      "y": 252,
+      "x": 547,
+      "y": 244,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -639,6 +614,234 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 87,
+      "layer": "",
+      "name": "Desc1",
+      "persistentUuid": "6ca2cf64-785a-4376-9572-fd5bca18fe9b",
+      "width": 266,
+      "x": 1264,
+      "y": 334,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 96,
+      "layer": "",
+      "name": "Desc2",
+      "persistentUuid": "870c4c80-cd78-4732-b964-881995019a67",
+      "width": 347,
+      "x": 1268,
+      "y": 590,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 98,
+      "layer": "",
+      "name": "Desc3",
+      "persistentUuid": "bff5591b-d852-4b1d-843c-144cc8196543",
+      "width": 357,
+      "x": 1262,
+      "y": 892,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "BallScore",
+      "persistentUuid": "f6fe4bdd-4bf5-46c2-b43c-35babf30eae4",
+      "width": 0,
+      "x": 613,
+      "y": -215,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "RoundLabelText",
+      "persistentUuid": "b9491159-ab0d-4fb2-8905-a3589c888297",
+      "width": 0,
+      "x": 1600,
+      "y": 28,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "CurrentScoreLabelText",
+      "persistentUuid": "040447ac-d091-4401-8470-e61677a20c90",
+      "width": 0,
+      "x": 1234,
+      "y": 27,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "ObjectiveLabelText",
+      "persistentUuid": "80579d44-eef8-4120-b7c5-16ddcb0eec5e",
+      "width": 0,
+      "x": 1231,
+      "y": 88,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "RoundNumbText",
+      "persistentUuid": "1c1c7585-ac08-4f11-91a1-1b9bc8a93c4d",
+      "width": 0,
+      "x": 1816,
+      "y": 25,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "NewLight",
+      "persistentUuid": "8a8d1412-ed2c-4ea3-8cd5-1fd29e1bd7ed",
+      "width": 0,
+      "x": 1028,
+      "y": 93,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 166,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bar",
+      "persistentUuid": "6382b5af-52ec-47af-859d-479db991f75c",
+      "width": 0,
+      "x": 778,
+      "y": 62,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 194,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bar",
+      "persistentUuid": "fc063538-7c74-4a44-9bf6-9b896789809c",
+      "width": 0,
+      "x": 12,
+      "y": 79,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 194,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bar",
+      "persistentUuid": "7bfff9f0-ff68-4c8c-8409-98bd44510bc2",
+      "width": 0,
+      "x": 572,
+      "y": -101,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 172,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bar",
+      "persistentUuid": "7dfb52b2-a564-43ca-84ae-b4027a55cc54",
+      "width": 0,
+      "x": 300,
+      "y": -99,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bar",
+      "persistentUuid": "f375d11e-d500-4b04-93f4-227d546ac113",
+      "width": 0,
+      "x": -164,
+      "y": -159,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Bar",
+      "persistentUuid": "8ece11fd-2ee4-4872-9a79-c184730b418e",
+      "width": 0,
+      "x": 961,
+      "y": -177,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -655,6 +858,12 @@
           "name": "NbBalls",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "Vampire",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -696,6 +905,103 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Cannonball",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4.5,
+                        "y": 25
+                      },
+                      {
+                        "x": 1.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 14
+                      },
+                      {
+                        "x": 2,
+                        "y": 8.5
+                      },
+                      {
+                        "x": 5,
+                        "y": 4
+                      },
+                      {
+                        "x": 9.5,
+                        "y": 1
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 1
+                      },
+                      {
+                        "x": 25,
+                        "y": 4
+                      },
+                      {
+                        "x": 28,
+                        "y": 8
+                      },
+                      {
+                        "x": 30,
+                        "y": 14.5
+                      },
+                      {
+                        "x": 29,
+                        "y": 19
+                      },
+                      {
+                        "x": 25.5,
+                        "y": 25.5
+                      },
+                      {
+                        "x": 21,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 15,
+                        "y": 30
+                      },
+                      {
+                        "x": 10,
+                        "y": 28.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "VampireCanonBall",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "2448ae5617eb465e2501958b08690aea92693aa262800175ce1c78938777d9a2_Cannonball.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1056,7 +1362,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "TotalScore",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -1076,7 +1382,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "Object1",
       "smoothed": true,
@@ -1087,7 +1393,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1099,6 +1405,28 @@
     {
       "assetStoreId": "",
       "bold": false,
+      "italic": false,
+      "name": "Desc1",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "Roboto-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
       "italic": false,
       "name": "Object2",
       "smoothed": true,
@@ -1109,7 +1437,7 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1122,6 +1450,28 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
+      "name": "Desc2",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "Roboto-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
       "name": "Object3",
       "smoothed": true,
       "tags": "",
@@ -1131,7 +1481,29 @@
       "effects": [],
       "behaviors": [],
       "string": "Text",
-      "font": "",
+      "font": "Roboto-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Desc3",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "Roboto-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
@@ -1340,7 +1712,7 @@
       "name": "BackGround",
       "rightMargin": 0,
       "tags": "",
-      "texture": "New image3",
+      "texture": "New image5",
       "tiled": true,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -1348,9 +1720,516 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "BallScore",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "10",
+      "font": "Roboto-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 62,
+        "g": 104,
+        "r": 19
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "IncreaseStatText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "IncreaseStat",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "IncreaseStatPermanentText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "IncreaseStat",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Selection",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "RoundLabelText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Number of Round left :",
+      "font": "Roboto-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "CurrentScoreLabelText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Current Score : ",
+      "font": "Roboto-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "ObjectiveLabelText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Objective: 150",
+      "font": "Roboto-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 25,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "RoundNumbText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "12",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewLight",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 3000,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bar",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 10,
+          "friction": 0,
+          "restitution": 0,
+          "linearDamping": 0,
+          "angularDamping": 0,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "40832527439da97fe46056f6934206f3d943568e68a955f6ff29dbe882a1c083_Blue bar.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 377,
+                        "y": 0
+                      },
+                      {
+                        "x": 377,
+                        "y": 19
+                      },
+                      {
+                        "x": 0,
+                        "y": 19
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DoesSceneExist"
+          },
+          "parameters": [
+            "",
+            "\"Paul Scene\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "RotatingBumper",
+            "60",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "FastRotateBumper",
+            "-180",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreAutour"
+          },
+          "parameters": [
+            "BallScore",
+            "Cannonball",
+            "50",
+            "270"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "BallScore",
+            "=",
+            "ToString(GlobalVariable(BallScore))"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "TotalScore",
+            "=",
+            "ToString(GlobalVariable(TotalScore))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+          },
+          "parameters": [
+            "Shake",
+            "ShakeObject_PositionAngle",
+            "RandomInRange(1,5)",
+            "5",
+            "5",
+            "5",
+            "0.08",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
     {
       "colorB": 228,
       "colorG": 176,
@@ -1378,7 +2257,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Pannel"
+                "Panel"
               ]
             }
           ]
@@ -1410,10 +2289,19 @@
             },
             {
               "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BallScore",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Montre"
               },
               "parameters": [
-                "Pannel",
+                "Panel",
                 ""
               ]
             },
@@ -1422,9 +2310,39 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "Pannel",
+                "Panel",
                 "=",
                 "500"
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "Selection",
+                "Selection",
+                "EmptyBumper.X()",
+                "EmptyBumper.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "EmptyBumper",
+                ""
               ]
             },
             {
@@ -1434,7 +2352,7 @@
               "parameters": [
                 "Object1Nb",
                 "=",
-                "RandomInRange(0,2)"
+                "RandomInRange(0,GlobalVariableChildCount(BumperDescription)-1)"
               ]
             },
             {
@@ -1444,7 +2362,7 @@
               "parameters": [
                 "Object2Nb",
                 "=",
-                "RandomInRange(0,2)"
+                "RandomInRange(0,GlobalVariableChildCount(BumperDescription)-1)"
               ]
             },
             {
@@ -1454,7 +2372,7 @@
               "parameters": [
                 "Object3Nb",
                 "=",
-                "RandomInRange(0,2)"
+                "RandomInRange(0,GlobalVariableChildCount(BumperDescription)-1)"
               ]
             },
             {
@@ -1472,6 +2390,16 @@
                 "value": "TextObject::String"
               },
               "parameters": [
+                "Desc1",
+                "=",
+                "GlobalVariableString(BumperDescription[GlobalVariable(Object1Nb)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
                 "Object2",
                 "=",
                 "GlobalVariableString(BumperList[GlobalVariable(Object2Nb)])"
@@ -1482,9 +2410,79 @@
                 "value": "TextObject::String"
               },
               "parameters": [
+                "Desc2",
+                "=",
+                "GlobalVariableString(BumperDescription[GlobalVariable(Object2Nb)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
                 "Object3",
                 "=",
                 "GlobalVariableString(BumperList[GlobalVariable(Object3Nb)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Desc3",
+                "=",
+                "GlobalVariableString(BumperDescription[GlobalVariable(Object3Nb)])"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TotalScore",
+                "+",
+                "GlobalVariable(BallScore)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "IncreaseStatPermVar",
+                "=",
+                "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "RoundNumber",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "RoundNumbText",
+                "=",
+                "ToString(GlobalVariable(RoundNumber))"
               ]
             }
           ]
@@ -1505,23 +2503,23 @@
           "actions": [
             {
               "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "EmptyBumper"
-              ]
-            },
-            {
-              "type": {
                 "value": "CreateByName"
               },
               "parameters": [
                 "",
                 "Floors",
                 "GlobalVariableString(BumperList[GlobalVariable(Object1Nb)])",
-                "EmptyBumper.X()",
-                "EmptyBumper.Y()",
+                "Selection.X()",
+                "Selection.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Selection",
                 ""
               ]
             },
@@ -1530,16 +2528,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Pannel"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "EmptyBumper",
-                ""
+                "Panel"
               ]
             },
             {
@@ -1549,9 +2538,34 @@
               "parameters": [
                 "",
                 "Cannonball",
-                "Random(500)+500",
+                "RandomInRange(50,950)",
                 "-Random(500)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BallScore",
+                "RandomInRange(50,950)",
+                "-Random(500)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::ApplyImpulse"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "RandomFloatInRange(0.5, 1)",
+                "RandomFloatInRange(0, 0.5)",
+                "Cannonball.X()-5",
+                "Cannonball.Y()-5"
               ]
             }
           ]
@@ -1572,23 +2586,23 @@
           "actions": [
             {
               "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "EmptyBumper"
-              ]
-            },
-            {
-              "type": {
                 "value": "CreateByName"
               },
               "parameters": [
                 "",
                 "Floors",
                 "GlobalVariableString(BumperList[GlobalVariable(Object2Nb)])",
-                "EmptyBumper.X()",
-                "EmptyBumper.Y()",
+                "Selection.X()",
+                "Selection.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Selection",
                 ""
               ]
             },
@@ -1597,16 +2611,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Pannel"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "EmptyBumper",
-                ""
+                "Panel"
               ]
             },
             {
@@ -1616,9 +2621,34 @@
               "parameters": [
                 "",
                 "Cannonball",
-                "Random(500)+500",
+                "RandomInRange(50,950)",
                 "-Random(500)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BallScore",
+                "RandomInRange(50,950)",
+                "-Random(500)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::ApplyImpulse"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "RandomFloatInRange(0.5, 1)",
+                "RandomFloatInRange(0, 0.5)",
+                "Cannonball.X()-5",
+                "Cannonball.Y()-5"
               ]
             }
           ]
@@ -1639,23 +2669,23 @@
           "actions": [
             {
               "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "EmptyBumper"
-              ]
-            },
-            {
-              "type": {
                 "value": "CreateByName"
               },
               "parameters": [
                 "",
                 "Floors",
                 "GlobalVariableString(BumperList[GlobalVariable(Object3Nb)])",
-                "EmptyBumper.X()",
-                "EmptyBumper.Y()",
+                "Selection.X()",
+                "Selection.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Selection",
                 ""
               ]
             },
@@ -1664,16 +2694,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Pannel"
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "EmptyBumper",
-                ""
+                "Panel"
               ]
             },
             {
@@ -1683,9 +2704,74 @@
               "parameters": [
                 "",
                 "Cannonball",
-                "Random(500)+500",
+                "RandomInRange(50,950)",
                 "-Random(500)",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BallScore",
+                "RandomInRange(50,950)",
+                "-Random(500)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::ApplyImpulse"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "RandomFloatInRange(0.5, 1)",
+                "RandomFloatInRange(0, 0.5)",
+                "Cannonball.X()-5",
+                "Cannonball.Y()-5"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Score",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "EmptyBumper",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "1"
               ]
             }
           ]
@@ -1695,9 +2781,162 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Always"
+                "value": "Physics2::Collision"
               },
               "parameters": [
+                "Cannonball",
+                "Physics2",
+                "SmallBump",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "RotatingBumper",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "HighBump",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "FastRotateBumper",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "ScoreDouble",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "*",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "-",
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "IncreaseStat",
                 ""
               ]
             }
@@ -1708,10 +2947,20 @@
                 "value": "ModVarObjet"
               },
               "parameters": [
-                "Cannonball",
-                "NbBalls",
-                "=",
-                "PickedInstancesCount(Cannonball)"
+                "IncreaseStat",
+                "Stat",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "GlobalVariable(IncreaseStatVar)"
               ]
             },
             {
@@ -1719,9 +2968,760 @@
                 "value": "TextObject::String"
               },
               "parameters": [
-                "NewText",
+                "IncreaseStatText",
                 "=",
-                "ToString(Cannonball.Variable(NbBalls))"
+                "ToString(GlobalVariable(IncreaseStatVar))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "IncreaseStatPermanent",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "IncreaseStatPermanent",
+                "Stat",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "GlobalVariable(IncreaseStatPermVar)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "IncreaseStatText",
+                "IncreaseStatPermanent.X()",
+                "IncreaseStatPermanent.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "IncreaseStatPermanentText",
+                "=",
+                "ToString(GlobalVariable(IncreaseStatVar))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "Vampire",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Cannonball",
+                "\"VampireCanonBall\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "ThreeLife",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "ThreeLife",
+                "Life",
+                "<",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "ThreeLife",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "ThreeLife",
+                "Life",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "ThreeLife",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "ThreeLife",
+                "Life",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "ThreeLife",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "VerySmallBump",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Vampire",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "Pieu",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "Floors",
+                "GlobalVariableString(BumperList[RandomInRange(0,GlobalVariableChildCount(BumperDescription)-1)])",
+                "Vampire.X()",
+                "Vampire.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Vampire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "10"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "IncreaseStat",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "Pieu",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "CreateByName"
+              },
+              "parameters": [
+                "",
+                "Floors",
+                "GlobalVariableString(BumperList[RandomInRange(0,GlobalVariableChildCount(BumperDescription)-1)])",
+                "Vampire.X()",
+                "Vampire.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Vampire",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "BallScore",
+                "+",
+                "10"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Vampire stuff",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "VerySmallBump",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "VerySmallBump.X()",
+                "VerySmallBump.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "VerySmallBump",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "SmallBump",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "SmallBump.X()",
+                "SmallBump.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "SmallBump",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "RotatingBumper",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "RotatingBumper.X()",
+                "RotatingBumper.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "RotatingBumper",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "FastRotateBumper",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "FastRotateBumper.X()",
+                "FastRotateBumper.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "FastRotateBumper",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "HighBump",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "HighBump.X()",
+                "HighBump.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "HighBump",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "ScoreDouble",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "ScoreDouble.X()",
+                "ScoreDouble.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "ScoreDouble",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "ThreeLife",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "ThreeLife.X()",
+                "ThreeLife.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "ThreeLife",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "Pieu",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "ThreeLife.X()",
+                "ThreeLife.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "ThreeLife",
+                ""
               ]
             }
           ]
@@ -1757,6 +3757,22 @@
         }
       ],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
@@ -1769,8 +3785,8 @@
       "scaleY": 100
     },
     {
-      "name": "Turret",
-      "type": "Turret::Turret"
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
     }
   ]
 }

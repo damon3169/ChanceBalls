@@ -357,7 +357,7 @@
         "alwaysLoaded": false,
         "file": "assets/floor purple5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/floor purple5.png\"}",
         "name": "floor purple4",
         "smoothed": true,
         "userAdded": false
@@ -429,6 +429,387 @@
         "name": "New image3",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floorempty2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floorempty2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/floor purple13.png\"}",
+        "name": "floor purple12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floorempty3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floorempty3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple16",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/floor purple18.png\"}",
+        "name": "floor purple18",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/floor purple19.png\"}",
+        "name": "floor purple19",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/floor purple20.png\"}",
+        "name": "floor purple20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple21",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ThreeLife.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ThreeLife",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ThreeLife3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ThreeLife3.png\"}",
+        "name": "ThreeLife3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Cannonball3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Cannonball3.png\",\"extension\":\".png\"}",
+        "name": "2448ae5617eb465e2501958b08690aea92693aa262800175ce1c78938777d9a2_Cannonball.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Weapon/Projectile/Ball/2448ae5617eb465e2501958b08690aea92693aa262800175ce1c78938777d9a2_Cannonball.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ThreeLife1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ThreeLife1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ThreeLife2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ThreeLife2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple22",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ThreeLife4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ThreeLife4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bar Frame_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f5d82b20b6d272c55e875464502e683c31d7c94df786570897ac8e0b83161d82_Bar Frame_Shadow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/f5d82b20b6d272c55e875464502e683c31d7c94df786570897ac8e0b83161d82_Bar Frame_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "40832527439da97fe46056f6934206f3d943568e68a955f6ff29dbe882a1c083_Blue bar.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/40832527439da97fe46056f6934206f3d943568e68a955f6ff29dbe882a1c083_Blue bar.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -451,7 +832,7 @@
           "bullet": false,
           "fixedRotation": false,
           "canSleep": true,
-          "shape": "Polygon",
+          "shape": "Circle",
           "shapeDimensionA": 0,
           "shapeDimensionB": 0,
           "shapeOffsetX": 0,
@@ -459,33 +840,41 @@
           "polygonOrigin": "Center",
           "vertices": [
             {
-              "x": 0,
+              "x": -2,
               "y": -50
             },
             {
-              "x": 50,
-              "y": -4
+              "x": 37,
+              "y": -39
             },
             {
               "x": 50,
               "y": 6
             },
             {
+              "x": 31,
+              "y": 41
+            },
+            {
               "x": -1,
               "y": 50
             },
             {
-              "x": -50,
-              "y": 5
+              "x": -42,
+              "y": 29
             },
             {
-              "x": -50,
-              "y": -4
+              "x": -49,
+              "y": -10
+            },
+            {
+              "x": -38,
+              "y": -36
             }
           ],
           "density": 1,
           "friction": 0,
-          "restitution": 0.5,
+          "restitution": 0.6,
           "linearDamping": 0.1,
           "angularDamping": 0.1,
           "gravityScale": 1,
@@ -505,7 +894,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "floorempty",
+                  "image": "floorempty3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -556,7 +945,7 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
-      "name": "BaseBumper",
+      "name": "SmallBump",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -603,11 +992,138 @@
             }
           ],
           "density": 1,
+          "friction": 0,
+          "restitution": 0.3,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "floor purple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "floor purple8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "RotatingBumper",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": -50,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 7
+            },
+            {
+              "x": 50,
+              "y": 2
+            },
+            {
+              "x": 42,
+              "y": -27
+            },
+            {
+              "x": 21,
+              "y": -45
+            },
+            {
+              "x": 1,
+              "y": -50
+            },
+            {
+              "x": -19,
+              "y": -45
+            },
+            {
+              "x": -41,
+              "y": -31
+            }
+          ],
+          "density": 0,
           "friction": 0,
           "restitution": 1,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
+          "linearDamping": 0,
+          "angularDamping": 0,
+          "gravityScale": 0,
           "layers": 1,
           "masks": 1
         }
@@ -624,7 +1140,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "floor purple2",
+                  "image": "floor purple9",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -675,7 +1191,134 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
-      "name": "HighBumper",
+      "name": "FastRotateBumper",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": -50,
+              "y": 17
+            },
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 50,
+              "y": 15
+            },
+            {
+              "x": 44,
+              "y": -24
+            },
+            {
+              "x": 24,
+              "y": -45
+            },
+            {
+              "x": -1,
+              "y": -50
+            },
+            {
+              "x": -22,
+              "y": -44
+            },
+            {
+              "x": -43,
+              "y": -28
+            }
+          ],
+          "density": 0,
+          "friction": 0,
+          "restitution": 1.5,
+          "linearDamping": 0,
+          "angularDamping": 0,
+          "gravityScale": 0,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "floor purple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "floor purple10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "HighBump",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -723,143 +1366,7 @@
           ],
           "density": 1,
           "friction": 0,
-          "restitution": 1.5,
-          "linearDamping": 0.1,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
-        },
-        {
-          "name": "Turret",
-          "type": "Turret::Turret",
-          "SpeedMax": 360,
-          "Acceleration": 1440,
-          "Deceleration": 36000,
-          "Rotate": true,
-          "AngleMax": 0,
-          "AngleMin": 0,
-          "AimingAngle": 0,
-          "Speed": 0,
-          "MustMoveClockwise": false,
-          "MustMoveCounterClockwise": false,
-          "HasMoved": false,
-          "TargetAngle": 0,
-          "OriginAngle": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "floor purple",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "floor purple3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 54.5
-                      },
-                      {
-                        "x": 0,
-                        "y": 46
-                      },
-                      {
-                        "x": 50.5,
-                        "y": 0
-                      },
-                      {
-                        "x": 100,
-                        "y": 46.5
-                      },
-                      {
-                        "x": 100,
-                        "y": 54.5
-                      },
-                      {
-                        "x": 49.5,
-                        "y": 100
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
-      "name": "LowBumper",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Static",
-          "bullet": false,
-          "fixedRotation": false,
-          "canSleep": true,
-          "shape": "Polygon",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [
-            {
-              "x": 0,
-              "y": -50
-            },
-            {
-              "x": 50,
-              "y": -4
-            },
-            {
-              "x": 50,
-              "y": 6
-            },
-            {
-              "x": -1,
-              "y": 50
-            },
-            {
-              "x": -50,
-              "y": 5
-            },
-            {
-              "x": -50,
-              "y": -4
-            }
-          ],
-          "density": 1,
-          "friction": 1,
-          "restitution": 0,
+          "restitution": 2,
           "linearDamping": 0.1,
           "angularDamping": 0.1,
           "gravityScale": 1,
@@ -926,22 +1433,1088 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "ScoreDouble",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": -2,
+              "y": -50
+            },
+            {
+              "x": 50,
+              "y": -10
+            },
+            {
+              "x": 30,
+              "y": 49
+            },
+            {
+              "x": -24,
+              "y": 50
+            },
+            {
+              "x": -50,
+              "y": -4
+            }
+          ],
+          "density": 1,
+          "friction": 0,
+          "restitution": 0.5,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "floor purple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "floor purple11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "IncreaseStat",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Stat",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Circle",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": 0,
+              "y": -50
+            },
+            {
+              "x": 50,
+              "y": -4
+            },
+            {
+              "x": 50,
+              "y": 6
+            },
+            {
+              "x": -1,
+              "y": 50
+            },
+            {
+              "x": -50,
+              "y": 5
+            },
+            {
+              "x": -50,
+              "y": -4
+            }
+          ],
+          "density": 1,
+          "friction": 0,
+          "restitution": 0.5,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "floor purple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "floor purple14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "IncreaseStatPermanent",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Stat",
+          "type": "number",
+          "value": -5
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Circle",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": 0,
+              "y": -50
+            },
+            {
+              "x": 50,
+              "y": -4
+            },
+            {
+              "x": 50,
+              "y": 6
+            },
+            {
+              "x": -1,
+              "y": 50
+            },
+            {
+              "x": -50,
+              "y": 5
+            },
+            {
+              "x": -50,
+              "y": -4
+            }
+          ],
+          "density": 1,
+          "friction": 0,
+          "restitution": 0.5,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "floor purple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "floor purple12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "VerySmallBump",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": -1,
+              "y": -18
+            },
+            {
+              "x": 18,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 19
+            },
+            {
+              "x": -19,
+              "y": 1
+            }
+          ],
+          "density": 1,
+          "friction": 0,
+          "restitution": 0.8,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "floor purple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "floor purple13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "ThreeLife",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Life",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": -2,
+              "y": -50
+            },
+            {
+              "x": 50,
+              "y": 50
+            },
+            {
+              "x": -50,
+              "y": 50
+            }
+          ],
+          "density": 1,
+          "friction": 0,
+          "restitution": 0.8,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "ThreeLife1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ThreeLife1",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ThreeLife2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ThreeLife2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ThreeLife3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ThreeLife3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "Shake",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Life",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": -1,
+              "y": -20
+            },
+            {
+              "x": 34,
+              "y": -12
+            },
+            {
+              "x": 42,
+              "y": 5
+            },
+            {
+              "x": 15,
+              "y": 23
+            },
+            {
+              "x": -14,
+              "y": 23
+            },
+            {
+              "x": -43,
+              "y": 4
+            },
+            {
+              "x": -33,
+              "y": -13
+            }
+          ],
+          "density": 1,
+          "friction": 0,
+          "restitution": 0.8,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "ThreeLife1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ThreeLife4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "Vampire",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": -3,
+              "y": -50
+            },
+            {
+              "x": 28,
+              "y": -39
+            },
+            {
+              "x": 42,
+              "y": -6
+            },
+            {
+              "x": 19,
+              "y": 38
+            },
+            {
+              "x": 0,
+              "y": 49
+            },
+            {
+              "x": -20,
+              "y": 40
+            },
+            {
+              "x": -41,
+              "y": -7
+            },
+            {
+              "x": -29,
+              "y": -39
+            }
+          ],
+          "density": 1,
+          "friction": 0,
+          "restitution": 0.8,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "floor purple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "floor purple21",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "Pieu",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": 18,
+              "y": -27
+            },
+            {
+              "x": 25,
+              "y": -19
+            },
+            {
+              "x": -25,
+              "y": 30
+            },
+            {
+              "x": 8,
+              "y": -31
+            }
+          ],
+          "density": 1,
+          "friction": 0,
+          "restitution": 0.8,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "floor purple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "floor purple22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
   "variables": [
-    {
-      "folded": true,
-      "name": "BumperInSceneID",
-      "type": "number",
-      "value": 0
-    },
-    {
-      "folded": true,
-      "name": "RandomBumperID",
-      "type": "number",
-      "value": 0
-    },
     {
       "folded": true,
       "name": "RandomBumperChoice",
@@ -956,18 +2529,103 @@
         {
           "folded": true,
           "type": "string",
-          "value": "BaseBumper"
+          "value": "SmallBump"
         },
         {
           "folded": true,
           "type": "string",
-          "value": "HighBumper"
+          "value": "RotatingBumper"
         },
         {
           "type": "string",
-          "value": "LowBumper"
+          "value": "HighBump"
+        },
+        {
+          "type": "string",
+          "value": "FastRotateBumper"
+        },
+        {
+          "type": "string",
+          "value": "ScoreDouble"
+        },
+        {
+          "type": "string",
+          "value": "Vampire"
+        },
+        {
+          "type": "string",
+          "value": "ThreeLife"
+        },
+        {
+          "type": "string",
+          "value": "VerySmallBump"
+        },
+        {
+          "type": "string",
+          "value": "Pieu"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Shake"
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "BumperDescription",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "+2\nBump peu"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Bumper qui tourne\n+1"
+        },
+        {
+          "type": "string",
+          "value": "+0\nBump vraiment beaucoup"
+        },
+        {
+          "type": "string",
+          "value": "-1\nRotate fast, bump beaucoup"
+        },
+        {
+          "type": "string",
+          "value": "Score Double then -5"
+        },
+        {
+          "type": "string",
+          "value": "+5\nWhen the ball touch it transform the ball into a vampire\nVampire will transform every bumper in basic bumpers"
+        },
+        {
+          "type": "string",
+          "value": "+10\nIs destroyed after 3 hit"
+        },
+        {
+          "type": "string",
+          "value": "+3\nBump tout petit"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Quand la balle bump dessus,\nRemplace tout les Vampire par des bumpers aléatoire\n+10 par Vampire tué"
+        },
+        {
+          "type": "string",
+          "value": "+2\nShaking bumper"
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "RoundNumber",
+      "type": "number",
+      "value": 12
     },
     {
       "folded": true,
@@ -992,6 +2650,18 @@
       "name": "Object3Nb",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "BallScore",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "TotalScore",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -1010,6 +2680,18 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectspawner"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/curvedmovement"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/turret"

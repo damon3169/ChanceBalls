@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3111974942445202,
+    "zoomFactor": 0.4057518905943825,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -79,5 +79,14 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Physics2",
+      "type": "Physics2::Physics2Behavior",
+      "gravityX": 0,
+      "gravityY": 9.8,
+      "scaleX": 100,
+      "scaleY": 100
+    }
+  ]
 }

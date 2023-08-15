@@ -352,6 +352,83 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Tiles/3afccd7985243337bfd5ca8dd6f26f0279f566a111f4e71b8f71d42546daadaa_tiled_Blue Floor.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floor purple5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floor purple4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/floorempty.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "floorempty",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b2c6ef85d2088a94a58d7c457ed225561a073aa3c9e6401a612bcdd98795ae91_Purple Button With Stone Frame_Hovered.png",
+          "name": "Purple Button With Stone Frame_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3bd79fc534fc1d2859343599ea35a2c3f81700ffebdf7b8b798be440e59ad816_Purple Button With Stone Frame_Idle.png",
+          "name": "Purple Button With Stone Frame_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/631710ee61e5e5422c9986ae91169e2e76e3f874a1aca8d2b02d6b5675348256_Purple Button With Stone Frame_Pressed.png",
+          "name": "Purple Button With Stone Frame_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Roboto-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Roboto-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+          "name": "Roboto-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -378,20 +455,49 @@
       "value": 0
     },
     {
+      "folded": true,
       "name": "BumperList",
       "type": "array",
       "children": [
         {
           "folded": true,
           "type": "string",
-          "value": "BaseBumper2"
+          "value": "BaseBumper"
         },
         {
           "folded": true,
           "type": "string",
-          "value": "BaseBumper3"
+          "value": "HighBumper"
+        },
+        {
+          "type": "string",
+          "value": "LowBumper"
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "EmptyBumperPosition",
+      "type": "array",
+      "children": []
+    },
+    {
+      "folded": true,
+      "name": "Object1Nb",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Object2Nb",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Object3Nb",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -410,6 +516,22 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/turret"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/objectstack"

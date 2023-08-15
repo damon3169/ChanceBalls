@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.47711029201016264,
+    "zoomFactor": 0.5821529875860175,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3271,8 +3271,7 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "IncreaseStat",
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -3281,7 +3280,7 @@
               "parameters": [
                 "Cannonball",
                 "Physics2",
-                "Pieu",
+                "Shake",
                 ""
               ]
             }
@@ -3289,34 +3288,12 @@
           "actions": [
             {
               "type": {
-                "value": "CreateByName"
-              },
-              "parameters": [
-                "",
-                "Floors",
-                "GlobalVariableString(BumperList[RandomInRange(0,GlobalVariableChildCount(BumperDescription)-1)])",
-                "Vampire.X()",
-                "Vampire.Y()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Vampire",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "ModVarGlobal"
               },
               "parameters": [
                 "BallScore",
                 "+",
-                "10"
+                "2"
               ]
             }
           ]
@@ -3329,7 +3306,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Vampire stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3721,6 +3697,55 @@
               },
               "parameters": [
                 "ThreeLife",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "Shake",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "Shake.X()",
+                "Shake.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Shake",
                 ""
               ]
             }

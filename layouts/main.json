@@ -18,10 +18,22 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4789341884535246,
+    "zoomFactor": 0.3925161175488224,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "BallGroup",
+      "objects": [
+        {
+          "name": "Cannonball"
+        },
+        {
+          "name": "BallScore"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -175,6 +187,10 @@
     {
       "name": "ShakeObject_PositionAngle",
       "type": "ShakeObject::ShakeObject_PositionAngle"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     }
   ]
 }

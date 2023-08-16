@@ -1011,6 +1011,37 @@
         "name": "canonaa",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/seven.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/seven.png\"}",
+        "name": "seven",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Seven2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Seven",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Diamond Ring_Shadow.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Diamond Ring_Shadow.png\",\"extension\":\".png\"}",
+        "name": "61b7150105541a4f6aa0ffd6b2981ae1b4693f48dd8b25bce40c4acf2d0a61f3_Diamond Ring_Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Clothing & Armor/61b7150105541a4f6aa0ffd6b2981ae1b4693f48dd8b25bce40c4acf2d0a61f3_Diamond Ring_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -1859,6 +1890,197 @@
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "Seven",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Stat",
+          "type": "number",
+          "value": -5
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Polygon",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": -38,
+              "y": -37
+            },
+            {
+              "x": 36,
+              "y": -39
+            },
+            {
+              "x": 22,
+              "y": 2
+            },
+            {
+              "x": 8,
+              "y": 42
+            },
+            {
+              "x": -8,
+              "y": 39
+            },
+            {
+              "x": 4,
+              "y": 4
+            },
+            {
+              "x": 13,
+              "y": -25
+            },
+            {
+              "x": -39,
+              "y": -23
+            }
+          ],
+          "density": 1,
+          "friction": 0,
+          "restitution": 0.9,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "seven anim 1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "seven",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seven anim 2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Seven",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
       "name": "IncreaseStatPermanent",
       "tags": "",
       "type": "Sprite",
@@ -1881,10 +2103,10 @@
           "fixedRotation": false,
           "canSleep": true,
           "shape": "Circle",
-          "shapeDimensionA": 0,
+          "shapeDimensionA": 32,
           "shapeDimensionB": 0,
           "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
+          "shapeOffsetY": 6,
           "polygonOrigin": "Center",
           "vertices": [
             {
@@ -1934,7 +2156,133 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "floor purple12",
+                  "image": "61b7150105541a4f6aa0ffd6b2981ae1b4693f48dd8b25bce40c4acf2d0a61f3_Diamond Ring_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 0,
+                        "y": 46
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 100,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 100,
+                        "y": 54.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 100
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "598bd3272dc2e12b074526de52c84641f5dde896e1fdba81864aa3c9ae9004c9",
+      "name": "Diamond",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Stat",
+          "type": "number",
+          "value": -5
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Circle",
+          "shapeDimensionA": 32,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 6,
+          "polygonOrigin": "Center",
+          "vertices": [
+            {
+              "x": 0,
+              "y": -50
+            },
+            {
+              "x": 50,
+              "y": -4
+            },
+            {
+              "x": 50,
+              "y": 6
+            },
+            {
+              "x": -1,
+              "y": 50
+            },
+            {
+              "x": -50,
+              "y": 5
+            },
+            {
+              "x": -50,
+              "y": -4
+            }
+          ],
+          "density": 1,
+          "friction": 0,
+          "restitution": 0.5,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "floor purple",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "61b7150105541a4f6aa0ffd6b2981ae1b4693f48dd8b25bce40c4acf2d0a61f3_Diamond Ring_Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3425,6 +3773,16 @@
         {
           "type": "string",
           "value": "GravityLift"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Seven"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Diamond"
         }
       ]
     },
@@ -3478,12 +3836,12 @@
         {
           "folded": true,
           "type": "string",
-          "value": "Lance une balle quand activé (par un boutton)\nLa balle ne dure qu'un round"
+          "value": "Lance une balle quand activé (par un boutton)\nLa balle ne dure qu'un round\n+0"
         },
         {
           "folded": true,
           "type": "string",
-          "value": "Active tout vos canons\nPuis se transforme en bumper de base"
+          "value": "Active tout vos canons\nPuis se transforme en bumper de base\n+0"
         },
         {
           "folded": true,
@@ -3493,7 +3851,17 @@
         {
           "folded": true,
           "type": "string",
-          "value": "Crée une vague anti gravité qui lève toutes les balles vers le haut"
+          "value": "Créé une vague anti gravité qui lève toutes les balles vers le haut\n+0"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "S'il y a exactement 3 seven, chaque 7 vaut 7 points, sinon ils valent 0."
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "Le score de la bague est égale au nombre de bague qu'il y a dans la scène"
         }
       ]
     },

@@ -72,6 +72,12 @@
         },
         {
           "name": "GravityLift"
+        },
+        {
+          "name": "Diamond"
+        },
+        {
+          "name": "Seven"
         }
       ]
     },
@@ -1720,6 +1726,28 @@
     },
     {
       "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "DiamondText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "1",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 35,
+      "color": {
+        "b": 5,
+        "g": 31,
+        "r": 41
+      }
+    },
+    {
+      "assetStoreId": "",
       "bold": false,
       "italic": false,
       "name": "IncreaseStatPermanentText",
@@ -2381,6 +2409,89 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Diamond",
+          "conditions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "DiamondText"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "DiamondText",
+                "=",
+                "ToString(SceneInstancesCount(Diamond))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Seven",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Seven",
+                "\"Seven anim 2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Seven",
+                "!=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Seven",
+                "\"seven anim 1\""
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -2439,6 +2550,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Augments",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3047,6 +3159,57 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Object1Nb",
+                    "=",
+                    "15"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "DiamondText",
+                    "0",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "DiamondText",
+                    "Sticker",
+                    "Diamond",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "DiamondText",
+                    "Diamond",
+                    "10",
+                    "90"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3167,6 +3330,57 @@
                     "IncreaseStat",
                     "0",
                     "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Object2Nb",
+                    "=",
+                    "15"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "DiamondText",
+                    "0",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "DiamondText",
+                    "Sticker",
+                    "Diamond",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "DiamondText",
+                    "Diamond",
+                    "10",
+                    "90"
                   ]
                 }
               ]
@@ -3293,6 +3507,57 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Object3Nb",
+                    "=",
+                    "15"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "DiamondText",
+                    "0",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "DiamondText",
+                    "Sticker",
+                    "Diamond",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "DiamondText",
+                    "Diamond",
+                    "10",
+                    "90"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -3304,6 +3569,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Score",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4061,6 +4327,75 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "Seven",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "Seven",
+                "Seven",
+                "=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Cannonball",
+                "BallScore",
+                "+",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "Diamond",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Cannonball",
+                "BallScore",
+                "+",
+                "SceneInstancesCount(Diamond)"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -4070,7 +4405,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Vampire stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4637,6 +4971,17 @@
                 "Vampire",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "IncreaseStatText",
+                "IncreaseStat.X()",
+                "IncreaseStat.Y()",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -4649,6 +4994,15 @@
                 "EmptyBumper",
                 "IncreaseStat.X()",
                 "IncreaseStat.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "IncreaseStatText",
                 ""
               ]
             },
@@ -4707,6 +5061,124 @@
               },
               "parameters": [
                 "GravityLift",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "Seven",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "Seven.X()",
+                "Seven.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Seven",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "Diamond",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "DiamondText",
+                "Diamond.X()",
+                "Diamond.Y()",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "Diamond.X()",
+                "Diamond.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "DiamondText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Diamond",
                 ""
               ]
             }

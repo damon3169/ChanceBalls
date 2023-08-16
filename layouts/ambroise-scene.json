@@ -705,6 +705,10 @@
     {
       "name": "ShakeObject_PositionAngle",
       "type": "ShakeObject::ShakeObject_PositionAngle"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     }
   ]
 }

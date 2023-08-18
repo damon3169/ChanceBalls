@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2901168285537816,
+    "zoomFactor": 0.5098294284165602,
     "windowMask": false
   },
   "objectsGroups": [
@@ -78,6 +78,12 @@
         },
         {
           "name": "Seven"
+        },
+        {
+          "name": "MagicButton"
+        },
+        {
+          "name": "GlitchDot"
         }
       ]
     },
@@ -772,7 +778,7 @@
       "initialVariables": []
     },
     {
-      "angle": 194,
+      "angle": 206,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -787,31 +793,16 @@
       "initialVariables": []
     },
     {
-      "angle": 194,
+      "angle": 172,
       "customSize": true,
       "depth": 0,
-      "height": 13,
-      "layer": "",
-      "name": "Bar",
-      "persistentUuid": "7bfff9f0-ff68-4c8c-8409-98bd44510bc2",
-      "width": 250,
-      "x": 237,
-      "y": 2,
-      "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 172,
-      "customSize": false,
-      "height": 0,
+      "height": 35,
       "layer": "",
       "name": "Bar",
       "persistentUuid": "7dfb52b2-a564-43ca-84ae-b4027a55cc54",
-      "width": 0,
+      "width": 687,
       "x": 460,
-      "y": 11,
+      "y": -26,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -917,8 +908,8 @@
       "layer": "",
       "name": "BackGround",
       "persistentUuid": "8e0951fc-ed80-4c62-90c4-869732ada11d",
-      "width": 646,
-      "x": 1361,
+      "width": 639,
+      "x": 1368,
       "y": 758,
       "zOrder": -1,
       "numberProperties": [],
@@ -981,7 +972,7 @@
       "layer": "",
       "name": "Launcher",
       "persistentUuid": "8ab3e442-7398-495d-8ab8-8a01c973fbc7",
-      "width": 37,
+      "width": 39,
       "x": 1177,
       "y": 895,
       "zOrder": 31,
@@ -1005,16 +996,16 @@
       "initialVariables": []
     },
     {
-      "angle": 357,
+      "angle": 348,
       "customSize": true,
       "depth": 0,
-      "height": 47,
+      "height": 31,
       "layer": "",
       "name": "Bar",
       "persistentUuid": "d32921f6-cce9-4afa-8bb0-96cc156a59fb",
-      "width": 917,
-      "x": 238,
-      "y": -86,
+      "width": 614,
+      "x": 240,
+      "y": -118,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -1024,11 +1015,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 16,
+      "height": 24,
       "layer": "",
       "name": "Supportlauncher",
       "persistentUuid": "53decbe7-6dcf-4854-8758-7e25df239cec",
-      "width": 43,
+      "width": 41,
       "x": 1175,
       "y": 859,
       "zOrder": 33,
@@ -1060,9 +1051,9 @@
       "layer": "",
       "name": "Bar",
       "persistentUuid": "da4546fa-17d7-49c9-abae-f546a5cc2842",
-      "width": 65,
-      "x": 1169,
-      "y": 1103,
+      "width": 63,
+      "x": 1170,
+      "y": 1099,
       "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
@@ -2653,6 +2644,26 @@
           "actions": [
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TotalScore",
+                "+",
+                "Cannonball.Variable(BallScore)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "TotalScore",
+                "=",
+                "ToString(GlobalVariable(TotalScore))"
+              ]
+            },
+            {
+              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -3569,7 +3580,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Score",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4196,8 +4206,8 @@
               "parameters": [
                 "",
                 "BallScore",
-                "RandomInRange(50,950)",
-                "-Random(500)",
+                "Cannonball.X()",
+                "Cannonball.Y()",
                 ""
               ]
             },
@@ -4282,6 +4292,397 @@
               },
               "parameters": [
                 "ButtonCanon",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "CanonBasic",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "MagicButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "CanonBasic",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Cannonball",
+                "CanonBasic.X()+30",
+                "CanonBasic.Y()-40",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BallScore",
+                "Cannonball.X()",
+                "Cannonball.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Cannonball",
+                "BallScore"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "BallScore",
+                "Cannonball",
+                "50",
+                "270"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::ApplyImpulse"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "RandomFloatInRange(0.5, 1)",
+                "RandomFloatInRange(0.5, 1)",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "MagicButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "CanonBasic",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Cannonball",
+                "RandomInRange(50,950)",
+                "-RandomInRange(100,300)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::Density"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Cannonball",
+                "\"PlombBall\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BallScore",
+                "Cannonball.X()",
+                "Cannonball.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Cannonball",
+                "BallScore"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "BallScore",
+                "Cannonball",
+                "50",
+                "270"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "MagicButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "CanonBasic",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Cannonball",
+                "RandomInRange(50,950)",
+                "-RandomInRange(100,300)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::Density"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Cannonball",
+                "\"PlombBall\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BallScore",
+                "Cannonball.X()",
+                "Cannonball.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Cannonball",
+                "BallScore"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "BallScore",
+                "Cannonball",
+                "50",
+                "270"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "MagicButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "CanonBasic",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Cannonball",
+                "RandomInRange(50,950)",
+                "-RandomInRange(100,300)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::Density"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Cannonball",
+                "\"PlombBall\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BallScore",
+                "Cannonball.X()",
+                "Cannonball.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Cannonball",
+                "BallScore"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "BallScore",
+                "Cannonball",
+                "50",
+                "270"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "MagicButton.X()",
+                "MagicButton.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "MagicButton",
                 ""
               ]
             }
@@ -4396,6 +4797,69 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "GlitchDot",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Cannonball",
+                "RandomInRange(50,950)",
+                "-RandomInRange(100,300)",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BallScore",
+                "Cannonball.X()",
+                "Cannonball.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Cannonball",
+                "BallScore"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "BallScore",
+                "Cannonball",
+                "50",
+                "270"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -4405,6 +4869,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Vampire stuff",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5179,6 +5644,104 @@
               },
               "parameters": [
                 "Diamond",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "MagicButton",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "MagicButton.X()",
+                "MagicButton.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "MagicButton",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "Cannonball",
+                "Physics2",
+                "GlitchDot",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Cannonball",
+                "Vampire",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "EmptyBumper",
+                "GlitchDot.X()",
+                "GlitchDot.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "GlitchDot",
                 ""
               ]
             }
